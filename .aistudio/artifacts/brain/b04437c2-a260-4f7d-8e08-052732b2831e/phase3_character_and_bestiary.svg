@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Dark Slate Background -->
+  <rect width="1280" height="720" fill="#090d14" />
+  
+  <!-- Header Banner -->
+  <rect x="30" y="25" width="620" height="45" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="50" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#38bdf8" font-weight="bold">PHASE 3 VISUAL AUDIT: ARCANE SPELLBLADE & BESTIARY ROSTER</text>
+
+  <!-- 1. HERO SHOWCASE: Arcane Spellblade -->
+  <g transform="translate(180, 200)">
+    <rect x="-130" y="-100" width="260" height="230" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="0" y="-70" font-family="sans-serif" font-size="13" fill="#38bdf8" font-weight="bold" text-anchor="middle">ARCANE SPELLBLADE (PLAYER)</text>
+    <text x="0" y="-50" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Hooded Cowl • Obsidian Robe • Spectral Blade</text>
+    
+    <!-- Shadow -->
+    <ellipse cx="0" cy="45" rx="35" ry="14" fill="#000" opacity="0.5"/>
+    <!-- Flowing Battle Cape -->
+    <path d="M -12 -5 L -35 -14 L -42 0 L -35 14 L -12 8 Z" fill="#090d16" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Robe / Mage Armor Body -->
+    <circle cx="0" cy="0" r="26" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" filter="drop-shadow(0 0 10px #38bdf8)"/>
+    <circle cx="0" cy="0" r="16" fill="#0284c7"/>
+    <!-- Glowing Cyan Eyes -->
+    <circle cx="12" cy="-6" r="3.5" fill="#e0f2fe" filter="drop-shadow(0 0 6px #38bdf8)"/>
+    <circle cx="12" cy="6" r="3.5" fill="#e0f2fe" filter="drop-shadow(0 0 6px #38bdf8)"/>
+    <!-- Spectral Blade & Arc -->
+    <path d="M 35 -40 A 55 55 0 0 1 35 40" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" filter="drop-shadow(0 0 12px #38bdf8)"/>
+    <!-- Orbiting Arcane Orbs -->
+    <circle cx="-50" cy="-25" r="7" fill="#38bdf8" filter="drop-shadow(0 0 8px #38bdf8)"/>
+    <circle cx="50" cy="25" r="7" fill="#38bdf8" filter="drop-shadow(0 0 8px #38bdf8)"/>
+    <text x="0" y="105" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">Visual: 16px | Hitbox: 16px [ALIGNED]</text>
+  </g>
+
+  <!-- 2. BLIGHT BAT -->
+  <g transform="translate(480, 200)">
+    <rect x="-120" y="-100" width="240" height="230" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="0" y="-70" font-family="sans-serif" font-size="13" fill="#c084fc" font-weight="bold" text-anchor="middle">BLIGHT BAT (SWARMER)</text>
+    <text x="0" y="-50" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Flapping Articulated Wings • Crimson Eyes</text>
+    
+    <ellipse cx="0" cy="40" rx="25" ry="10" fill="#000" opacity="0.45"/>
+    <!-- Wings -->
+    <path d="M -5 0 L -42 -28 L -18 16 Z" fill="#64748b"/>
+    <path d="M 5 0 L 42 -28 L 18 16 Z" fill="#64748b"/>
+    <!-- Core -->
+    <circle cx="0" cy="0" r="14" fill="#6b21a8" stroke="#d8b4fe" stroke-width="2" filter="drop-shadow(0 0 8px #c084fc)"/>
+    <!-- Crimson Eyes -->
+    <circle cx="-4" cy="-3" r="2.5" fill="#ef4444"/>
+    <circle cx="4" cy="-3" r="2.5" fill="#ef4444"/>
+    <text x="0" y="105" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">Visual: 14px | Hitbox: 14px [ALIGNED]</text>
+  </g>
+
+  <!-- 3. CORRUPTED WOLF (WITH TELEGRAPH) -->
+  <g transform="translate(770, 200)">
+    <rect x="-120" y="-100" width="240" height="230" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="0" y="-70" font-family="sans-serif" font-size="13" fill="#f43f5e" font-weight="bold" text-anchor="middle">CORRUPTED WOLF (CHARGER)</text>
+    <text x="0" y="-50" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Quadruped • Telegraph Dash Ring</text>
+    
+    <!-- Red Dashed Telegraph Circle -->
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="5 5" filter="drop-shadow(0 0 6px #ef4444)"/>
+    <ellipse cx="0" cy="35" rx="30" ry="12" fill="#000" opacity="0.45"/>
+    <!-- Torso -->
+    <ellipse cx="-4" cy="0" rx="24" ry="16" fill="#881337" stroke="#f43f5e" stroke-width="2"/>
+    <!-- Head & Snout -->
+    <polygon points="12,-10 32,0 12,10" fill="#b91c1c"/>
+    <!-- Spines -->
+    <line x1="-16" y1="-12" x2="-10" y2="-22" stroke="#f43f5e" stroke-width="3"/>
+    <line x1="-6" y1="-12" x2="0" y2="-22" stroke="#f43f5e" stroke-width="3"/>
+    <!-- Glowing Eye -->
+    <circle cx="18" cy="-4" r="3" fill="#fef08a" filter="drop-shadow(0 0 4px #ef4444)"/>
+    <text x="0" y="105" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">Visual: 20px | Hitbox: 20px [ALIGNED]</text>
+  </g>
+
+  <!-- 4. THORN SPITTER -->
+  <g transform="translate(1060, 200)">
+    <rect x="-120" y="-100" width="240" height="230" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="0" y="-70" font-family="sans-serif" font-size="13" fill="#34d399" font-weight="bold" text-anchor="middle">THORN SPITTER (RANGED)</text>
+    <text x="0" y="-50" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Thorny Pod • Spore Projectile Mouth</text>
+    
+    <ellipse cx="0" cy="32" rx="26" ry="10" fill="#000" opacity="0.45"/>
+    <!-- Pod Body -->
+    <circle cx="0" cy="0" r="18" fill="#064e3b" stroke="#10b981" stroke-width="2.5" filter="drop-shadow(0 0 8px #10b981)"/>
+    <!-- Thorns -->
+    <circle cx="-22" cy="0" r="4" fill="#047857"/>
+    <circle cx="22" cy="0" r="4" fill="#047857"/>
+    <circle cx="-11" cy="-19" r="4" fill="#047857"/>
+    <circle cx="11" cy="-19" r="4" fill="#047857"/>
+    <circle cx="-11" cy="19" r="4" fill="#047857"/>
+    <circle cx="11" cy="19" r="4" fill="#047857"/>
+    <!-- Center Mouth -->
+    <circle cx="0" cy="0" r="8" fill="#022c22"/>
+    <circle cx="0" cy="0" r="4" fill="#a7f3d0" filter="drop-shadow(0 0 4px #a7f3d0)"/>
+    <text x="0" y="105" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">Visual: 18px | Hitbox: 18px [ALIGNED]</text>
+  </g>
+
+  <!-- 5. VOID STALKER -->
+  <g transform="translate(180, 500)">
+    <rect x="-130" y="-115" width="260" height="260" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="0" y="-85" font-family="sans-serif" font-size="13" fill="#a855f7" font-weight="bold" text-anchor="middle">VOID STALKER (STALKER/ELITE)</text>
+    <text x="0" y="-65" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Cloaked Wraith • Twin Void Scythes</text>
+    
+    <ellipse cx="0" cy="45" rx="30" ry="12" fill="#000" opacity="0.45"/>
+    <!-- Cloak Body -->
+    <path d="M -16 30 L -10 -25 L 10 -25 L 16 30 Z" fill="#1e112a" stroke="#c084fc" stroke-width="2.5" filter="drop-shadow(0 0 10px #a855f7)"/>
+    <!-- Eldritch Violet Eye -->
+    <circle cx="0" cy="-15" r="5" fill="#c084fc" filter="drop-shadow(0 0 8px #c084fc)"/>
+    <!-- Twin Scythes -->
+    <path d="M -22 -15 A 18 18 0 0 1 -22 25" fill="none" stroke="#e9d5ff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 22 -15 A 18 18 0 0 0 22 25" fill="none" stroke="#e9d5ff" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="120" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">Visual: 22px | Hitbox: 22px [ALIGNED]</text>
+  </g>
+
+  <!-- 6. GROVE TITAN BOSS -->
+  <g transform="translate(680, 500)">
+    <rect x="-310" y="-115" width="620" height="260" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+    <text x="0" y="-85" font-family="sans-serif" font-size="14" fill="#34d399" font-weight="bold" text-anchor="middle">SECTOR TITAN: THE GROVE TITAN (BOSS ENCOUNTER)</text>
+    <text x="0" y="-65" font-family="sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Ancient Wood-Golem • Colossal Antlers • Orbiting Will-O-Wisps • Emerald Core</text>
+    
+    <!-- Shadow -->
+    <ellipse cx="0" cy="55" rx="65" ry="22" fill="#000" opacity="0.6"/>
+    <!-- Golem Torso -->
+    <circle cx="0" cy="0" r="48" fill="#14221a" stroke="#10b981" stroke-width="3.5" filter="drop-shadow(0 0 18px #10b981)"/>
+    <!-- Core Rune -->
+    <circle cx="0" cy="0" r="18" fill="#10b981" filter="drop-shadow(0 0 12px #34d399)"/>
+    <!-- Colossal Branching Horns / Antlers -->
+    <path d="M -24 -35 L -55 -65 L -40 -80" fill="none" stroke="#2d4a3e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 24 -35 L 55 -65 L 40 -80" fill="none" stroke="#2d4a3e" stroke-width="5" stroke-linecap="round"/>
+    <!-- Orbiting Will-O-Wisps -->
+    <circle cx="-68" cy="10" r="6" fill="#6ee7b7" filter="drop-shadow(0 0 10px #6ee7b7)"/>
+    <circle cx="45" cy="-55" r="6" fill="#6ee7b7" filter="drop-shadow(0 0 10px #6ee7b7)"/>
+    <circle cx="68" cy="20" r="6" fill="#6ee7b7" filter="drop-shadow(0 0 10px #6ee7b7)"/>
+    <!-- Health Bar Preview -->
+    <rect x="-80" y="70" width="160" height="10" rx="3" fill="#1e1e1e" stroke="#10b981"/>
+    <rect x="-80" y="70" width="120" height="10" rx="3" fill="#10b981"/>
+    <text x="0" y="120" font-family="monospace" font-size="11" fill="#94a3b8" text-anchor="middle">Colossal Visual Scale: 48px Radius | Hitbox: 48px Radius [ALIGNED]</text>
+  </g>
+</svg>

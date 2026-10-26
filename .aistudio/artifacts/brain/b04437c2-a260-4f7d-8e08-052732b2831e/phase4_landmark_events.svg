@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800">
+  <defs>
+    <radialGradient id="shrineAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tombAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="groveAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="beaconAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="portalAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="800" fill="#070c0a"/>
+
+  <!-- Title Header -->
+  <rect x="30" y="24" width="600" height="52" rx="8" fill="#0f172a" stroke="#1e293b"/>
+  <text x="50" y="52" font-family="'Cinzel', serif, sans-serif" font-size="19" fill="#f8fafc" font-weight="bold">
+    PHASE 4: 5 LANDMARK GAMEPLAY EVENTS
+  </text>
+  <text x="50" y="68" font-family="monospace" font-size="11.5" fill="#10b981">
+    Interactive Trials • Guarded Sepulchers • Blight Purges • Signal Beacons • Planar Portal
+  </text>
+
+  <!-- EVENT 1: ANCIENT RUNIC SHRINE -->
+  <g transform="translate(230, 240)">
+    <rect x="-190" y="-140" width="380" height="260" rx="10" fill="#0b1311" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="0" y="-115" font-family="'Cinzel', serif" font-size="14" fill="#38bdf8" font-weight="bold" text-anchor="middle">1. ANCIENT RUNIC SHRINE (TRIAL)</text>
+    <text x="0" y="-98" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Defend consecrated holy ring for 12s • Restores 40 HP + Blessed Boon</text>
+
+    <!-- Sacred Aura Circle -->
+    <circle cx="0" cy="10" r="70" fill="url(#shrineAura)" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 4"/>
+    <circle cx="0" cy="10" r="55" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="80 180"/>
+    <!-- Altar Stone -->
+    <rect x="-24" y="-4" width="48" height="28" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    <circle cx="0" cy="10" r="6" fill="#38bdf8" filter="drop-shadow(0 0 8px #38bdf8)"/>
+    <!-- Progress Indicator -->
+    <text x="0" y="75" font-family="monospace" font-size="11" fill="#f59e0b" text-anchor="middle" font-weight="bold">CONSECRATING: 8s [IN PROGRESS]</text>
+    <text x="0" y="105" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">Reward: +20% Slash Dmg • +15 Max HP • 15 Crystals</text>
+  </g>
+
+  <!-- EVENT 2: FORGOTTEN GRAVEYARD -->
+  <g transform="translate(640, 240)">
+    <rect x="-190" y="-140" width="380" height="260" rx="10" fill="#0b1311" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="0" y="-115" font-family="'Cinzel', serif" font-size="14" fill="#a855f7" font-weight="bold" text-anchor="middle">2. FORGOTTEN GRAVEYARD (HAUNT)</text>
+    <text x="0" y="-98" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Disturb sepulcher • Vanquish Tomb Revenant guardian</text>
+
+    <!-- Grave Sepulcher -->
+    <circle cx="0" cy="10" r="70" fill="url(#tombAura)" stroke="#a855f7" stroke-width="2" stroke-dasharray="6 4"/>
+    <rect x="-30" y="-6" width="60" height="32" rx="4" fill="#1e112a" stroke="#c084fc" stroke-width="2"/>
+    <text x="0" y="14" font-family="monospace" font-size="10" fill="#c084fc" text-anchor="middle">ROYAL CRYPT</text>
+    <!-- Tomb Revenant Guardian Sprite -->
+    <circle cx="45" cy="-20" r="14" fill="#1e112a" stroke="#f43f5e" stroke-width="2"/>
+    <circle cx="45" cy="-20" r="4" fill="#f43f5e"/>
+    <text x="45" y="-38" font-family="sans-serif" font-size="9" fill="#f43f5e" text-anchor="middle">TOMB REVENANT</text>
+    <text x="0" y="75" font-family="monospace" font-size="11" fill="#ef4444" text-anchor="middle" font-weight="bold">STATUS: GUARDIAN ENGAGED</text>
+    <text x="0" y="105" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">Reward: Guaranteed Ancient Relic • 25 Crystals • +10% Crit</text>
+  </g>
+
+  <!-- EVENT 3: CORRUPTED GROVE -->
+  <g transform="translate(1050, 240)">
+    <rect x="-190" y="-140" width="380" height="260" rx="10" fill="#0b1311" stroke="#10b981" stroke-width="1.5"/>
+    <text x="0" y="-115" font-family="'Cinzel', serif" font-size="14" fill="#10b981" font-weight="bold" text-anchor="middle">3. CORRUPTED GROVE (PURGE)</text>
+    <text x="0" y="-98" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Sever 3 pulsing Blighted Roots to dispel toxic miasma</text>
+
+    <!-- Grove Tree & 3 Roots -->
+    <circle cx="0" cy="10" r="70" fill="url(#groveAura)" stroke="#10b981" stroke-width="2" stroke-dasharray="6 4"/>
+    <circle cx="0" cy="10" r="24" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
+    <!-- Root 1 (Alive) -->
+    <circle cx="-38" cy="-20" r="10" fill="#047857" stroke="#10b981" stroke-width="2"/>
+    <!-- Root 2 (Alive) -->
+    <circle cx="38" cy="-20" r="10" fill="#047857" stroke="#10b981" stroke-width="2"/>
+    <!-- Root 3 (Severed) -->
+    <circle cx="0" cy="46" r="10" fill="#1f2937" stroke="#475569" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="0" y="50" font-family="monospace" font-size="9" fill="#94a3b8" text-anchor="middle">SEVERED</text>
+    <text x="0" y="75" font-family="monospace" font-size="11" fill="#34d399" text-anchor="middle" font-weight="bold">PURGE PROGRESS: 2/3 ROOTS</text>
+    <text x="0" y="105" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">Reward: 5 Large XP Gems • Bramble Dash • 20 Crystals</text>
+  </g>
+
+  <!-- EVENT 4: RUINED WATCHTOWER -->
+  <g transform="translate(380, 540)">
+    <rect x="-240" y="-130" width="480" height="230" rx="10" fill="#0b1311" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="0" y="-105" font-family="'Cinzel', serif" font-size="14" fill="#f59e0b" font-weight="bold" text-anchor="middle">4. RUINED WATCHTOWER (BASTION BEACON)</text>
+    <text x="0" y="-88" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Channel signal hearth for 4s • Dispels fog & reveals hidden world caches</text>
+
+    <!-- Watchtower Platform & Flame -->
+    <circle cx="0" cy="8" r="65" fill="url(#beaconAura)" stroke="#f59e0b" stroke-width="2"/>
+    <rect x="-28" y="-12" width="56" height="40" rx="3" fill="#1c1917" stroke="#78716c" stroke-width="2"/>
+    <!-- Signal Flame -->
+    <path d="M 0 -24 Q -12 0 0 16 Q 12 0 0 -24 Z" fill="#f59e0b" filter="drop-shadow(0 0 14px #f59e0b)"/>
+    <circle cx="0" cy="4" r="6" fill="#fef08a"/>
+    <text x="0" y="58" font-family="monospace" font-size="11" fill="#f59e0b" text-anchor="middle" font-weight="bold">BEACON IGNITED: 100% REKINDLED</text>
+    <text x="0" y="82" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">Reward: 3m Chest Sight Beacons • +15% Movement Speed</text>
+  </g>
+
+  <!-- EVENT 5: SEALED PORTAL CLEARING -->
+  <g transform="translate(900, 540)">
+    <rect x="-240" y="-130" width="480" height="230" rx="10" fill="#0b1311" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="0" y="-105" font-family="'Cinzel', serif" font-size="14" fill="#06b6d4" font-weight="bold" text-anchor="middle">5. SEALED PORTAL CLEARING (EXTRACTION)</text>
+    <text x="0" y="-88" font-family="sans-serif" font-size="10.5" fill="#64748b" text-anchor="middle">Sector Titan defeat opens planar gateway: Extract Safely vs. Push Deeper</text>
+
+    <!-- Planar Vortex -->
+    <circle cx="0" cy="8" r="65" fill="url(#portalAura)" stroke="#06b6d4" stroke-width="2.5"/>
+    <circle cx="0" cy="8" r="42" fill="none" stroke="#67e8f9" stroke-width="2" stroke-dasharray="14 10"/>
+    <circle cx="0" cy="8" r="18" fill="#ffffff" filter="drop-shadow(0 0 16px #67e8f9)"/>
+    <!-- 6 Standing Runic Stones -->
+    <circle cx="-52" cy="-22" r="5" fill="#0891b2"/>
+    <circle cx="52" cy="-22" r="5" fill="#0891b2"/>
+    <circle cx="-52" cy="38" r="5" fill="#0891b2"/>
+    <circle cx="52" cy="38" r="5" fill="#0891b2"/>
+    <circle cx="0" cy="-58" r="5" fill="#0891b2"/>
+    <circle cx="0" cy="68" r="5" fill="#0891b2"/>
+    <text x="0" y="58" font-family="monospace" font-size="11" fill="#38bdf8" text-anchor="middle" font-weight="bold">PLANAR GATE: ACTIVE EXTRACTION RIFT</text>
+    <text x="0" y="82" font-family="monospace" font-size="10" fill="#94a3b8" text-anchor="middle">Choices: Return to Sanctum (100% Bank) OR Push Deeper (Sector 2 2X)</text>
+  </g>
+</svg>

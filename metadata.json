@@ -1,0 +1,6 @@
+{
+  "name": "CURSECRAFT: Living Curse Roguelite",
+  "description": "Enter an adaptive cursed realm. Battle evolving monster hordes, survive environmental hazards, defeat sector titans, and choose whether to extract with banked relics or push into deeper nightmares.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

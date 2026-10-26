@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <rect width="1280" height="720" fill="#120508"/><path d="M 100 200 L 350 320 L 580 260 L 820 420 L 1150 380" stroke="#ef4444" stroke-width="2.5" fill="none" opacity="0.35" filter="drop-shadow(0 0 6px #ef4444)"/>
+  <path d="M 400 550 L 620 480 L 900 620" stroke="#ef4444" stroke-width="2" fill="none" opacity="0.3"/><ellipse cx="220" cy="190" rx="38" ry="14" fill="#000" opacity="0.6"/>
+    <path d="M 202 188 Q 194 160 212 105 Q 224 105 238 188 Z" fill="#180a0e" stroke="#2e1017" stroke-width="2"/>
+    <circle cx="204" cy="108" r="26" fill="#280a13"/>
+    <circle cx="236" cy="108" r="24" fill="#280a13"/>
+    <!-- Crimson vines -->
+    <path d="M 200 130 Q 194 165 202 184" stroke="#ef4444" stroke-width="1.8" fill="none" opacity="0.8"/>
+    <path d="M 238 130 Q 244 165 236 184" stroke="#ef4444" stroke-width="1.8" fill="none" opacity="0.8"/><ellipse cx="980" cy="170" rx="38" ry="14" fill="#000" opacity="0.6"/>
+    <path d="M 962 168 Q 954 140 972 85 Q 984 85 998 168 Z" fill="#180a0e" stroke="#2e1017" stroke-width="2"/>
+    <circle cx="964" cy="88" r="26" fill="#280a13"/>
+    <circle cx="996" cy="88" r="24" fill="#280a13"/>
+    <!-- Crimson vines -->
+    <path d="M 960 110 Q 954 145 962 164" stroke="#ef4444" stroke-width="1.8" fill="none" opacity="0.8"/>
+    <path d="M 998 110 Q 1004 145 996 164" stroke="#ef4444" stroke-width="1.8" fill="none" opacity="0.8"/><ellipse cx="180" cy="570" rx="38" ry="14" fill="#000" opacity="0.6"/>
+    <path d="M 162 568 Q 154 540 172 485 Q 184 485 198 568 Z" fill="#180a0e" stroke="#2e1017" stroke-width="2"/>
+    <circle cx="164" cy="488" r="26" fill="#280a13"/>
+    <circle cx="196" cy="488" r="24" fill="#280a13"/>
+    <!-- Crimson vines -->
+    <path d="M 160 510 Q 154 545 162 564" stroke="#ef4444" stroke-width="1.8" fill="none" opacity="0.8"/>
+    <path d="M 198 510 Q 204 545 196 564" stroke="#ef4444" stroke-width="1.8" fill="none" opacity="0.8"/><ellipse cx="1050" cy="590" rx="38" ry="14" fill="#000" opacity="0.6"/>
+    <path d="M 1032 588 Q 1024 560 1042 505 Q 1054 505 1068 588 Z" fill="#180a0e" stroke="#2e1017" stroke-width="2"/>
+    <circle cx="1034" cy="508" r="26" fill="#280a13"/>
+    <circle cx="1066" cy="508" r="24" fill="#280a13"/>
+    <!-- Crimson vines -->
+    <path d="M 1030 530 Q 1024 565 1032 584" stroke="#ef4444" stroke-width="1.8" fill="none" opacity="0.8"/>
+    <path d="M 1068 530 Q 1074 565 1066 584" stroke="#ef4444" stroke-width="1.8" fill="none" opacity="0.8"/><!-- Sector Titan Boss (Abomination) -->
+  <ellipse cx="820" cy="356" rx="56" ry="24" fill="#000" opacity="0.6"/>
+  <circle cx="820" cy="320" r="48" fill="#450a0a" stroke="#ef4444" stroke-width="3.5" filter="drop-shadow(0 0 16px #ef4444)"/>
+  <circle cx="804" cy="308" r="6" fill="#fef08a" filter="drop-shadow(0 0 6px #fef08a)"/>
+  <circle cx="836" cy="308" r="6" fill="#fef08a" filter="drop-shadow(0 0 6px #fef08a)"/>
+  <!-- Boss Health Bar -->
+  <rect x="760" y="245" width="120" height="8" rx="3" fill="#1e1e1e" stroke="#450a0a"/>
+  <rect x="760" y="245" width="85" height="8" rx="3" fill="#ef4444"/><!-- Dashing Player -->
+  <circle cx="520" cy="440" r="16" fill="#0284c7" stroke="#e0f2fe" stroke-width="2.5" filter="drop-shadow(0 0 12px #38bdf8)"/>
+  <circle cx="520" cy="440" r="7" fill="#f8fafc"/>
+  <path d="M 540 395 L 595 430" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" filter="drop-shadow(0 0 10px #38bdf8)"/><circle cx="640" cy="360" r="320" fill="#ef4444" opacity="0.08"/><rect x="20" y="20" width="520" height="42" rx="6" fill="#450a0a" opacity="0.9" stroke="#ef4444"/>
+  <text x="35" y="47" font-family="monospace" font-size="14" fill="#fee2e2" font-weight="bold">CURSE ESCALATION STAGE 3: TITAN ENCOUNTER & CRIMSON BLIGHT</text>
+  </svg>

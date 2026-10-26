@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    touch-action: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom glow and pixel effects */
+.glow-cyan {
+  filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.6));
+}
+
+.glow-purple {
+  filter: drop-shadow(0 0 16px rgba(168, 85, 247, 0.7));
+}
+
+.glow-amber {
+  filter: drop-shadow(0 0 14px rgba(245, 158, 11, 0.6));
+}
